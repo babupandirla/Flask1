@@ -1,5 +1,5 @@
 from flask import Flask,render_template,jsonify
-from app.primecheck import prime as pr
+from app.primecheck import twosidedprime as pr
 app=Flask(__name__)
 
 @app.route('/')
